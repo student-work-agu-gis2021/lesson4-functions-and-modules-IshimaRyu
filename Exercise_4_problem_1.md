@@ -25,7 +25,10 @@ If everything in your script is working properly the following test case should 
 
 ```python
 # YOUR CODE HERE
-```
+def fahr_to_celsius(temp):
+  return 9/5*(temp)+32
+
+
 
 ### Problem 1 tests
 

@@ -45,7 +45,8 @@ def celsius_to_fahr(temp_fahrenheit):
 # Write your answers below:
 
 # YOUR ANSWER HERE. Write your answers as comments
-
+#1.Yes,I understand.
+#2.Using functions makes the code very easy to understand.
 #
 #
 

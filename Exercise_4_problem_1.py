@@ -19,8 +19,9 @@
 # - Adding comments in your code and a docstring that explains how to use your `fahr_to_celsius` function (i.e., you should write the purpose of the function, parameters, and returned values)
 
 # YOUR CODE HERE
-def celsius_to_fahr(temp):
-    return 9/5 * temp +32
+def celsius_to_fahr(temp_fahrenheit):
+  converted_temp=9/5 * temp_fahrenheit +32
+  return converted_temp
 
 # ### Problem 1 tests
 # 
@@ -44,8 +45,7 @@ def celsius_to_fahr(temp):
 # Write your answers below:
 
 # YOUR ANSWER HERE. Write your answers as comments
-#
-#
+
 #
 #
 

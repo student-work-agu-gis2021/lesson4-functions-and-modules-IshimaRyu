@@ -81,9 +81,9 @@ print("ok :)")
 #  - Does your function has an informative dosctring?
 
 # YOUR ANSWER HERE. Write your answer as comments
-#
-#
-#
+# Yes, correct.
+# Yes, I added comments.
+# Yes, I added dosctring.
 #
 #
 # YOUR ANSWER ENDS HERE

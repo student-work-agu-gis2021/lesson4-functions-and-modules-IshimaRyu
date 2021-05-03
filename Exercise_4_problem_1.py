@@ -20,6 +20,7 @@
 
 # YOUR CODE HERE
 def celsius_to_fahr(temp_fahrenheit):
+  """華氏をtemp_fahrenheitに代入すると摂氏に変化して、その値を返す"""
   converted_temp=9/5 * temp_fahrenheit +32
   return converted_temp
 

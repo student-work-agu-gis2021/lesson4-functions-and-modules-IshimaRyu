@@ -26,7 +26,7 @@
 
 # YOUR CODE HERE to define 
 def temp_classifier(temp_celsius):
-
+  """クラス分けしたい摂氏をtemp_celsiusに代入すると、その温度を4つのクラスのどこかに分ける"""
   if temp_celsius<-2:
     return 0
   elif temp_celsius>=-2 and temp_celsius<2:

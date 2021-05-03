@@ -26,7 +26,7 @@
 
 # YOUR CODE HERE to define 
 def temp_classifier(temp_celsius):
-  """摂氏の温度を4つのクラスに分ける"""
+
   if temp_celsius<-2:
     return 0
   elif temp_celsius>=-2 and temp_celsius<2:
@@ -43,8 +43,7 @@ def temp_classifier(temp_celsius):
 
 # 1. What is the class value for 16.5 degrees Celsius?
 # YOUR CODE HERE
-print(temp_classifier(16.5))
-#3
+#
 # 2. What is the class value for +2 degrees Celsius?
 # YOUR CODE HERE
 #

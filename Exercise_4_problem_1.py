@@ -27,8 +27,9 @@ def celsius_to_fahr(temp_fahrenheit):
 # 
 # Check that the function produces correct answers for:
 # 1. What is 48° Fahrenheit in Celsius? 
+# A.118.4
 # 2. What about 71° Fahrenheit in Celsius?
-
+# A.159.8
 # ### Check your code
 # 
 # - Make sure you used the given variable names

@@ -21,16 +21,18 @@
 # YOUR CODE HERE
 def celsius_to_fahr(temp_fahrenheit):
   """華氏をtemp_fahrenheitに代入すると摂氏に変化して、その値を返す"""
-  converted_temp=9/5 * temp_fahrenheit +32
+  converted_temp=( temp_fahrenheit - 32 ) / 1.8
   return converted_temp
 
 # ### Problem 1 tests
 # 
 # Check that the function produces correct answers for:
 # 1. What is 48° Fahrenheit in Celsius? 
-# A.118.4
+print(celsius_to_fahr(48))
+
 # 2. What about 71° Fahrenheit in Celsius?
-# A.159.8
+print(celsius_to_fahr(71))
+
 # ### Check your code
 # 
 # - Make sure you used the given variable names

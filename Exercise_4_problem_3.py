@@ -81,10 +81,10 @@ for k in range(len(temp_data)):
 #   
 
 # YOUR CODE HERE
-zeros=0
-ones=0
-twos=0
-threes=0
+zeros= 0
+ones= 0
+twos= 0
+threes= 0
 for i in range(len(temp_classes)):
   if temp_classes[i]==0:
     zeros+=1

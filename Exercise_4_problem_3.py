@@ -85,14 +85,14 @@ zeros= 0
 ones= 0
 twos= 0
 threes= 0
-for i in range(len(temp_classes)):
-  if temp_classes[i]==0:
+for k in range(len(temp_classes)):
+  if temp_classes[k]==0:
     zeros+=1
-  elif temp_classes[i]==1:
+  elif temp_classes[k]==1:
     ones+=1
-  elif temp_classes[i]==2:
+  elif temp_classes[k]==2:
     twos+=1
-  elif temp_classes[i]==3:
+  elif temp_classes[k]==3:
     threes+=1
 
 # **TIP**: You might want to consider using a [**count()** function](https://www.tutorialspoint.com/python3/list_count.htm) OR a for loop for this.

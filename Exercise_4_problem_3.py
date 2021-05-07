@@ -65,7 +65,12 @@ temp_data =  [19, 21, 21, 21, 23, 23, 23, 21, 19, 21, 19, 21, 23, 27, 27, 28, 30
 
 
 # YOUR CODE HERE
-
+from temp_functions import fahr_to_celsius, temp_classifier
+temp_classes=[]
+for i in range(len(temp_data)):
+  temp_celsius=fahr_to_celsius(temp_data[i])
+  temp_class=temp_classifier(temp_celsius)
+  temp_classes.append(temp_class)
 
 # #### Part 2 (continues)
 # 
@@ -76,6 +81,19 @@ temp_data =  [19, 21, 21, 21, 23, 23, 23, 21, 19, 21, 19, 21, 23, 27, 27, 28, 30
 #   
 
 # YOUR CODE HERE
+zeros=0
+ones=0
+twos=0
+threes=0
+for i in range(len(temp_classes)):
+  if temp_classes[i]==0:
+    zeros+=1
+  elif temp_classes[i]==1:
+    ones+=1
+  elif temp_classes[i]==2:
+    twos+=1
+  elif temp_classes[i]==3:
+    threes+=1
 
 # **TIP**: You might want to consider using a [**count()** function](https://www.tutorialspoint.com/python3/list_count.htm) OR a for loop for this.
 

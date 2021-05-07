@@ -19,7 +19,7 @@
 # - Adding comments in your code and a docstring that explains how to use your `fahr_to_celsius` function (i.e., you should write the purpose of the function, parameters, and returned values)
 
 # YOUR CODE HERE
-def celsius_to_fahr(temp_fahrenheit):
+def fahr_to_celsius(temp_fahrenheit):
   """華氏をtemp_fahrenheitに代入すると摂氏に変化して、その値を返す"""
   converted_temp=( temp_fahrenheit - 32 ) / 1.8
   return converted_temp
@@ -28,10 +28,10 @@ def celsius_to_fahr(temp_fahrenheit):
 # 
 # Check that the function produces correct answers for:
 # 1. What is 48° Fahrenheit in Celsius? 
-print(celsius_to_fahr(48))
+print(fahr_to_celsius(48))
 
 # 2. What about 71° Fahrenheit in Celsius?
-print(celsius_to_fahr(71))
+print(fahr_to_celsius(71))
 
 # ### Check your code
 # 

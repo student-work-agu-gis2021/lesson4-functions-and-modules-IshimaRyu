@@ -15,7 +15,7 @@
       "setup": "",
       "run": "python Exercise_4_problem_3.py",
       "input": "",
-      "output": "94 180 62 0",
+      "output": "137 85 114 0",
       "comparison": "included",
       "timeout": 10,
       "points": null

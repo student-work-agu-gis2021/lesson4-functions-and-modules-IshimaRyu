@@ -20,7 +20,7 @@
 
 # YOUR CODE HERE
 def fahr_to_celsius(temp_fahrenheit):
-  """華氏をtemp_fahrenheitに代入すると摂氏に変化して、その値を返す"""
+  """Substituting Fahrenheit into temp_fahrenheit will change it to Celsius and return that value."""
   converted_temp=( temp_fahrenheit - 32 ) / 1.8
   return converted_temp
 
